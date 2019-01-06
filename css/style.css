@@ -2204,43 +2204,30 @@ img{
 .main-slider.style-two .big-title{
 	font-size:80px;
 	line-height:1em;
-	color:#323232;
+	color: black;
 	font-weight:700;
-	font-family: 'Libre Baskerville', serif;	
+	font-family: mr-darcy, sans-serif;
+	font-weight: 500;
+	font-style: normal;
 }
 
 .main-slider.style-two .designation{
 	font-size:14px;
 	color:#7a0b7c;
-	font-family: 'Libre Baskerville', serif;	
+	font-family: mr-darcy, sans-serif;
+	font-weight: 500;
+	font-style: normal;	
 }
 
 
 .main-slider.style-two .text{
-	font-size:14px;
+	position: relative;
+	font-size:20px;
 	color:#7a0b7c;
 	line-height:2em;
-	font-family: 'Libre Baskerville', serif;	
-}
-
-.main-slider.style-four{
-	font-family: 'Poppins', sans-serif;	
-}
-
-.main-slider.style-four h3{
-	font-weight:700;
-	line-height:1.6em;
-	color:#ffffff;
-	font-size:36px;
-	font-family: 'Poppins', sans-serif;	
-}
-
-.main-slider.style-four h2{
-	font-weight:700;
-	line-height:1.6em;
-	color:#ffffff;
-	font-size:64px;
-	font-family: 'Poppins', sans-serif;	
+	font-family: mr-darcy, sans-serif;
+	font-weight: 500;
+	font-style: normal;	
 }
 
 .main-slider.style-four h2 span{
@@ -2381,8 +2368,90 @@ MY MAIN SCREEN CSS
 ====================================================================
 ***/
 
-.logoh1{
-	margin-right: 200px;
+
+.jumbotron {
+	padding: 120px 0;
+	background-image: url(../images/gallery/Kristina.jpg);
+	background-size: cover;
+	background-color: 	#555358;
+	background-attachment: fixed;
+	margin-bottom: 0px;
+	text-align: left;
+	position: relative;
+}
+
+.jumbotron.fullscreen {
+	display: flex;
+	width: 100%;
+	min-height: 100vh;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.row{
+	display: flex;
+	flex-direction: row;
+}
+
+.jumbotron h1 {
+	font-size: 60px;
+	font-weight: 600;
+	letter-spacing: 2px;
+	color:white;
+	line-height:2em;
+	font-family: mr-darcy, sans-serif;
+	font-weight: 500;
+	font-style: normal;	
+}
+
+#social{
+color:#7a0b7c;
+}
+
+.jumbotron p {
+	color:white;
+	line-height:2em;
+	font-family: mr-darcy, sans-serif;
+	font-weight: 500;
+	font-style: normal;	
+}
+
+.jumbotron i {
+	margin: 35px 15px 0 0;
+	font-size: 25px;
+	color: #fff;
+}
+
+.jumbotron a:hover i {
+	color: #879bb6;
+}
+
+.g-button {
+	padding: 8px 30px;
+	font-size: 16px;
+	letter-spacing: 2px;
+	font-weight: 700;
+	color: #333333;
+	border: none;
+}
+
+.g-button:hover {
+	background-color: #ffffff;
+	color: #000;
+}
+
+.g-button-outline {
+	color: #ffffff;
+	padding: 8px 30px;
+	font-size: 16px;
+	font-weight: 600;
+	letter-spacing: 2px;
+	border-color: #879bb6;
+}
+
+.g-button-outline:hover {
+	border-color: #ffffff;
+	background-color: transparent;
 }
 
 /*** 
@@ -2700,7 +2769,7 @@ MY MAIN SCREEN CSS
 	left:0px;
 	bottom:0px;
 	width:44px;
-	border-bottom:2px solid #c18f59;	
+	border-bottom:2px solid #7a0b7c;	
 }
 
 .sec-title-two.centered{
@@ -2712,11 +2781,13 @@ MY MAIN SCREEN CSS
 	margin-left:-22px;
 }
 
-.sec-title-two h2{
+.sec-title-two h1{
 	position:relative;
-	font-size:20px;
+	font-size:40px;
 	font-weight:700;
-	font-family:'Roboto Slab',serif;
+	font-family: mr-darcy, sans-serif;
+	font-weight: 500;
+	font-style: normal;
 	color:#323232;
 }
 
@@ -3850,7 +3921,7 @@ MY MAIN SCREEN CSS
 	line-height:24px;
 	border:4px solid #ffffff;
 	background:#bbaea6;
-	color:#ffffff;
+	color:Black;
 	font-size:12px;
 	border-radius:3px;
 	z-index:1;	
@@ -3865,7 +3936,7 @@ MY MAIN SCREEN CSS
 
 .testimonials-section-two .testimonial-block .inner-box .content-box .text{
 	font-size:15px;
-	color:#898989;
+	color:Black;
 	line-height:1.8em;
 	font-style:italic;
 }
