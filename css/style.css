@@ -946,8 +946,8 @@ img{
 }
 
 .header-style-two.fixed-header{
-	background:#ffffff;
-	border-bottom-color:rgba(0,0,0,0.10);
+	background: transparent;
+
 }
 
 .header-style-two .main-box{
@@ -994,7 +994,7 @@ img{
 	height:42px;
 	width:42px;
 	background:#ffffff;
-	color:#c18f59;
+	color:trans;
 	text-align:center;
 	font-size:18px;
 	line-height:42px;
@@ -3791,7 +3791,7 @@ color:#7a0b7c;
 .featured-book{
 	position:relative;
 	padding:120px 0px 50px;
-	background:#555358;
+	background:#82868c;
 	color:#ffffff;
 }
 
@@ -3825,7 +3825,7 @@ color:#7a0b7c;
 	margin-bottom:20px;
 	font-size:16px;
 	font-family:'Roboto Slab',serif;
-	color:#aaaaaa;	
+	color:white;	
 }
 
 .featured-book .subtitle:after{
@@ -3834,7 +3834,7 @@ color:#7a0b7c;
 	right:0px;
 	bottom:0px;
 	width:50px;
-	border-bottom:1px solid #aaaaaa;	
+	border-bottom:1px solid white;	
 }
 
 .featured-book .book-title{
@@ -3852,7 +3852,7 @@ color:#7a0b7c;
 	font-style:italic;
 	font-size:15px;
 	font-family: 'Libre Baskerville', serif;
-	color:#aaaaaa;	
+	color:white;	
 }
 
 .featured-book .price{
@@ -3868,7 +3868,7 @@ color:#7a0b7c;
 	margin-bottom:10px;
 	font-size:16px;
 	font-family:'Roboto Slab',serif;
-	color:#aaaaaa;	
+	color:white;	
 }
 
 .featured-book .desc-text{
@@ -4246,8 +4246,8 @@ color:#7a0b7c;
 .share-section-one{
 	position:relative;
 	padding:60px 0px;
-	background:#bbaea6;
-	color:#ffffff;
+	background:#82868c;
+	color:#7a0b7c;
 	text-align:center;
 }
 
@@ -4269,8 +4269,8 @@ color:#7a0b7c;
 	text-align:center;
 	font-weight:400;
 	margin:0px 5px;
-	color:#ffffff;
-	border:2px solid #ffffff;
+	color:#7a0b7c;
+	border:2px solid #7a0b7c;
 	background:none;
 	border-radius:50%;
 	transition:all 0.5s ease;
@@ -4281,8 +4281,8 @@ color:#7a0b7c;
 }
 
 .share-section-one .social-links a:hover{
-	color:#bbaea6;
-	background:#ffffff;	
+	color:#82868c;
+	background:white;	
 }
 
 /*** 
@@ -4295,14 +4295,14 @@ color:#7a0b7c;
 
 .footer-style-two{
 	position:relative;
-	color:#aaaaaa;
-	background:#403e42;
+	color:#82868c;
+	background:#82868c;
 }
 
 .footer-style-two .footer-upper{
 	position:relative;
 	padding:110px 0px 70px;
-	color:#999999;
+	color:#82868c;
 	background-size:cover;
 	background-repeat:no-repeat;
 	background-position:center center;
@@ -4313,7 +4313,7 @@ color:#7a0b7c;
 	font-size:14px;
 	padding:15px 0px;
 	line-height:30px;
-	color:#777777;
+	color:#82868c;
 	font-weight:500;
 	background:#38363a;
 }
