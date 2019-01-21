@@ -4051,7 +4051,7 @@ color:#7a0b7c;
 }
 
 .news-style-two .lower-content .post-meta a{
-	color:#f74824;	
+	color:#7a0b7c;	
 }
 
 .news-style-two .lower-content .text{
@@ -4358,6 +4358,7 @@ color:#7a0b7c;
 	display:block;
 	width:100%;
 	opacity:0.70;
+	border-radius: 50%
 }
 
 .footer-style-two .image-column .more-link a{
