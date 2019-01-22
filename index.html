@@ -307,6 +307,7 @@
     </section>
     <!--Best Sellers-->
     <section class="best-sellers" id="scroll-section-three">
+            <div class="blur"></div>
     	<div class="auto-container">
         	
             <!--Section Title-->
@@ -362,10 +363,6 @@
             </div>
             
         </div>
-    </section>
-    <!--More Books-->
-       <!--Best Sellers-->
-       <section class="best-sellers" id="scroll-section-three">
     	<div class="auto-container">
         	
             <!--Section Title-->
@@ -569,7 +566,7 @@
                     	<div class="row clearfix">
                         	<!--Image Column-->
                         	<div class="image-column col-md-6 col-sm-4 col-xs-12">
-                            	<figure class="image-box"><a href="#"><img src="images/gallery/kristinamask.jpg" alt=""></a></figure>
+                            	<figure class="image-box"><img src="images/gallery/kristinamask.jpg" alt=""></figure>
                             </div>
                             <!--Info Column-->
                         </div>
@@ -577,21 +574,30 @@
                     
                     <!--Contact Column-->
                     <div class="contact-column col-md-6 col-sm-12 col-xs-12">
-                    	<h2>Get In Touch</h2>
+                    	<h2 class="getInTouch">Get In Touch</h2>
                     	<div class="contact-form">
-                            <form method="post" action="contact.html">
-                            	<div class="row clearfix">
-                                    <div class="form-group col-md-6 col-sm-6 col-xs-12">
-                                        <input type="text" name="name" value="" placeholder="Username *" required>
+                            <form action="https://formspree.io/eclipsedbylove@lunareclipseseries.com" method="POST">
+                                <div class="form-row">
+                                    <div class="form-group col-sm-12 mb-15">
+                                        <input type="text" name="name" id="name" class="form-control border-top-0 border-right-0 border-left-0  rounded-0 contact-inpt" class="inputform" placeholder="Your Name">
                                     </div>
-                                    <div class="form-group col-md-6 col-sm-6 col-xs-12">
-                                        <input type="email" name="email" value="" placeholder="Email *" required>
+                                </div>
+                                <div class="form-row form-block">
+                                    <div class="form-group col-sm-6">
+                                        <input type="text" id="subject" name="subject" class="form-control border-top-0 border-left-0 contact-inpt border-right-0 rounded-0 " placeholder="Your subject">
                                     </div>
-                                    <div class="form-group col-md-12 col-sm-12 col-xs-12">
-                                        <textarea name="message" placeholder="Type Your Message" required></textarea>
+                                    <div class="form-group  col-sm-6">
+                                        <input type="email" id="email" name="email" class="contact-inpt form-control border-top-0 border-left-0 border-right-0  rounded-0 " placeholder="Your Email" >
                                     </div>
-                                    <div class="form-group col-md-12 col-sm-12 col-xs-12">
-                                        <button type="submit" class="theme-btn btn-style-four">Submit</button>
+                                </div>
+                                <div class="form-row form-block">
+                                    <div class="form-group col-sm-12 mt-15">
+                                        <textarea name="message"  id="message" class="contact-inpt form-control border-top-0 border-left-0 border-right-0  rounded-0" rows="6" placeholder="Your Message"></textarea>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-group col-sm-12 mt-10 text-center" >
+                                    <button type="submit" value="send" class="btn btn-outline-dark g-button-2" id="buttonSend">Send</button>
                                     </div>
                                 </div>
                             </form>
