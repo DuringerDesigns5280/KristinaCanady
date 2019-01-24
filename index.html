@@ -8,11 +8,11 @@
 <link href="css/bootstrap.css" rel="stylesheet">
 <link href="css/revolution-slider.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
+<link href="css/responsive.css" rel="stylesheet">
 <link rel="stylesheet" href="https://use.typekit.net/ohh3pfa.css">
 <!-- Responsive -->
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-<link href="css/responsive.css" rel="stylesheet">
 <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
 <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
 <!--Favicon Code-->
@@ -75,52 +75,27 @@
         
             <!-- .logo -->
             <div class="logo text-center">
-                <a href="index.html"><img src="" alt=""></a>			
+                <a href="index.html"><h3>Kristina Canady</h3></a>			
             </div><!-- /.logo -->
             
             <!-- .Side-menu -->
             <div class="side-menu">
             <!-- .navigation -->
                 <ul class="navigation one-page-nav">
-                    <li class="current dropdown"><a href="#scroll-section-one">Home</a>
-                        <ul>
-                            <li><a href="index.html">Homepage Lawyer</a></li>
-                            <li><a href="index-2.html">Homepage Author</a></li>
-                            <li><a href="index-3.html">Homepage Barber</a></li>
-                            <li><a href="index-4.html">Homepage Health / Fitness</a></li>
-                            <li><a href="index-5.html">Homepage Fashion</a></li>
-                            <li class="dropdown"><a href="#">Header Styles</a>
-                                <ul>
-                                    <li><a href="index.html">Header Style One</a></li>
-                                    <li><a href="index-2.html">Header Style Two</a></li>
-                                    <li><a href="index-3.html">Header Style Three</a></li>
-                                    <li><a href="index-4.html">Header Style Four</a></li>
-                                    <li><a href="index-5.html">Header Style Five</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-                    <li><a href="#scroll-section-two">What I Do</a></li>
-                    <li><a href="#scroll-section-three">My Best Sellers</a></li>
-                    <li><a href="#scroll-section-four">My Featured Book</a></li>
-                    <li><a href="#scroll-section-five">Testimonials</a></li>
-                    <li class="dropdown"><a href="#scroll-section-six">News</a>
-                        <ul>
-                            <li><a href="blog.html">Our Blog</a></li>
-                            <li><a href="blog-single.html">Blog Single</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#scroll-section-seven">Other Books</a></li>
-                    <li><a class="valid-link" href="contact.html">Contact Us</a></li>
+                    <li><a href="#scroll-section-one">New Release</a></li>
+                    <!--<li><a href="#scroll-section-two">Modeling</a></li>-->
+                    <li><a href="#scroll-section-three">Series</a></li>
+                    <li><a href="#scroll-section-four">Reviews</a></li>
+                    <li><a href="#scroll-section-five">Events</a></li>
+                    <li><a href="#scroll-section-six">Contact Me</a></li>
                 </ul>
             </div><!-- /.Side-menu -->
         
             <div class="social-icons">
                 <ul>
-                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="https://www.facebook.com/midnightbloompart1/" target="_blank"><i id="navsocial" class="fa fa-facebook"></i></a></li>
+                    <li><a href="https://twitter.com/KristinaCanady" target="_blank"><i id="navsocial" class="fa fa-twitter"></i></a></li>
+                    <li><a href="https://www.instagram.com/satinesassin/" target="_blank"><i id="navsocial" class="fa fa-instagram"></i></a></li>
                 </ul>
             </div>
         
@@ -201,7 +176,6 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-10">
-                    <h2></h2>
                     <h1 class="my-3">Kristina<span class="name-1">Canady</span></h1>
                     <p class="cd-headline clip is-full-width"><span>"Unmask Your Midnight Cravings!"</span>
                     </p>
@@ -219,14 +193,14 @@
         </div>
     </section>
     <!--Featured Book-->
-    <section class="featured-book" id="scroll-section-four">
+    <section class="featured-book" id="scroll-section-one">
     	<div class="auto-container">
-        	<div class="row clearfix">
+        	<div class="row clearfix" id="responsiveFeatured">
             	
                 <!--Info Column-->
                 <div class="info-column col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                	<div class="inner-box">
-                    	<h3 class="subtitle">New Release</h3>
+                	<div class="inner-box" id="inner-top-box">
+                    	<h3 class="subtitle"><span>New</span> Release</h3>
                         <h2 class="book-title">The Undomestication of Freyja</h2>
                         <div class="written-by">by: Kristina Canady </div>
                     </div>
@@ -242,7 +216,8 @@
                 	<div class="inner-box">
                     	<div class="book-category">Satirical Comedy</div>
                         <div class="desc-text">Unbecoming the status quo.</div>
-                        <div class="link-box"><a href="https://books2read.com/u/meAPAV" target="_blank" class="theme-btn btn-style-four">Buy Now</a></div>
+                        <div class="desc-text" id="signedCopies" >Contact for signed copies</div>
+                        <div class="link-box"><a href="https://books2read.com/u/meAPAV" target="_blank" class="theme-btn btn-style-four">Pre-Order Here!</a></div>
                     </div>
                 </div>
                 
@@ -250,17 +225,14 @@
             </div>
         </div>
     </section>
-    
-    <!--What I Do-->
+    <!--What I Do
     <section class="what-author-do" id="scroll-section-two">
     	<div class="auto-container">
-        	<!--Section Title-->
             <div class="sec-title-two">
             	<h2>Modeling</h2>
             </div>
             
             <div class="row clearfix">
-                <!--Service Box One-->
                 <div class="service-box-one col-lg-4 col-md-4 col-sm-6 col-xs-12">
                     <div class="inner-box wow fadeIn" data-wow-delay="0ms" data-wow-duration="1500ms">
                         <figure class="image-box"><img src="images/gallery/Kruse Couple Shot 1.jpg" alt=""></figure>
@@ -273,8 +245,6 @@
                         </div>
                     </div>
                 </div>
-                
-                <!--Service Box One-->
                 <div class="service-box-one col-lg-4 col-md-4 col-sm-6 col-xs-12">
                     <div class="inner-box wow fadeIn" data-wow-delay="300ms" data-wow-duration="1500ms">
                         <figure class="image-box"><img src="images/resource/featured-image-15.jpg" alt=""></figure>
@@ -287,8 +257,6 @@
                         </div>
                     </div>
                 </div>
-                
-                <!--Service Box One-->
                 <div class="service-box-one col-lg-4 col-md-4 col-sm-6 col-xs-12">
                     <div class="inner-box wow fadeIn" data-wow-delay="600ms" data-wow-duration="1500ms">
                         <figure class="image-box"><img src="images/resource/featured-image-16.jpg" alt=""></figure>
@@ -304,15 +272,16 @@
                 
             </div>
         </div>
-    </section>
+    </section> -->
     <!--Best Sellers-->
+    <div class="blur">
     <section class="best-sellers" id="scroll-section-three">
-            <div class="blur"></div>
+            
     	<div class="auto-container">
         	
             <!--Section Title-->
             <div class="sec-title-two">
-            	<h1>Lunar Eclipse Series</h1>
+                <h1 id="textDeco">Lunar Eclipse Series</h1>
             </div>
             
             <div class="clearfix">
@@ -362,12 +331,12 @@
                 </div>
             </div>
             
-        </div>
-    	<div class="auto-container">
+       
+    	
         	
             <!--Section Title-->
             <div class="sec-title-two">
-            	<h1>Affliction Of Falling Series</h1>
+            	<h1 id="textDeco">Affliction Of Falling Series</h1>
             </div>
             
             <div class="clearfix">
@@ -382,7 +351,6 @@
                         </div>
                     </div>
                 </div>
-                
                 <!--Book Item Box-->
                 <div class="book-item-box">
                 	<div class="inner-box">
@@ -394,6 +362,24 @@
                     </div>
                 </div>
         </div>
+        <div class="sec-title-two">
+            	<h1 id="textDeco">Obsidian Blades series</h1>
+            </div>
+            
+            <div class="clearfix">
+            	
+                <!--Book Item Box-->
+                <div class="book-item-box">
+                        <div class="inner-box">
+                            <figure class="image-box"><a href="https:books2read.com/u/boZLO1 " target="_blank"><img id="longer" src="images/gallery/winters.jpg" alt=""></a></figure>
+                            <div class="lower-content">
+                                <h4><a href="https:/books2read.com/u/boZLO1 " target="_blank">Winter's Absolution</a></h4>
+                                <div class="written-by">by: Kristina Canady</div>
+                            </div>
+                        </div>
+                    </div>
+        </div>
+        
     </section>
          
     
@@ -401,15 +387,17 @@
     
     
     <!--Testimonial Section-->
-    <section class="testimonials-section-two" id="scroll-section-five">
+    <section class="testimonials-section-two" id="scroll-section-four">
     	<div class="auto-container">
+                <div class="sec-title-two">
+                        <h1 class="titlePadding" id="textDeco">Reviews</h1>
+                    </div>
         
         	<div class="testimonial-carousel-two">
                 <!--testimonial block-->
                 <div class="testimonial-block">
                     <!--inner-box-->
                     <div class="inner-box">
-                    	<div class="quote-icon"><span class="fa fa-quote-left"></span></div>
                         <div class="content-box">
                             <div class="text">"Midnight Bloom by Kristina Canady was absolutely phenomenal. The introduction to Sasha's character was done with ease and precision. Sasha is anything but normal and her issues that she encounters in her marriage is relatable and real. The feelings the author invokes between the main characters will leave you breathless."</div>
                         </div>
@@ -423,7 +411,6 @@
                 <div class="testimonial-block">
                     <!--inner-box-->
                     <div class="inner-box">
-                    	<div class="quote-icon"><span class="fa fa-quote-left"></span></div>
                         <div class="content-box">
                             <div class="text">“This series is one you just can't put down and once you finish it you can't forget it!”</div>
                         </div>
@@ -439,7 +426,6 @@
                 <div class="testimonial-block">
                     <!--inner-box-->
                     <div class="inner-box">
-                    	<div class="quote-icon"><span class="fa fa-quote-left"></span></div>
                         <div class="content-box">
                             <div class="text">“I love the independent characters and the connection they have. Super sexy and steamy scenes. I didn't want to put it down. I was drawn in right away and love that the characters are relatable. Can't wait for the next one!!!”</div>
                         </div>
@@ -453,7 +439,6 @@
                 <div class="testimonial-block">
                     <!--inner-box-->
                     <div class="inner-box">
-                    	<div class="quote-icon"><span class="fa fa-quote-left"></span></div>
                         <div class="content-box">
                             <div class="text">“Author Kristina Canady grabbed my heart and soul and made me feel emotions I never knew I had. Great ready for a story that breaks and mends you from start to finish!”</div>
                         </div>
@@ -472,12 +457,12 @@
     
     
     <!--News Section Two-->
-    <section class="news-section-two" id="scroll-section-six">
+    <section class="news-section-two" id="scroll-section-five">
         <div class="auto-container">
         
             <!--Section Title-->
             <div class="sec-title-two">
-                <h1>Apperances and Events</h1>
+                <h1 class="titlePadding"id="textDeco">Apperances and Events</h1>
             </div>
             
             <div class="row clearfix">
@@ -492,7 +477,7 @@
                                 <h3><a href="blog-single.html">Mile High City</a></h3>
                                 <div class="post-meta">19-Oct-2019 &ensp;|&ensp; <a href="https://www.brownpapertickets.com/event/3222174" target="_blank">Buy Tickets Here!</a></div>
                                 <div class="text">
-                                    Book and wine pairing event! Come join us to meet featured authors from around the world, enjoy Colorado proud wines and delicacies all while supporting the “The Gathering Place” a colorado non-profit that supports women, children and the transgender community. This event is 18+, Halloween theme is 1920’s to 1940’s for the entire event and after party. </div>
+                                    Book and wine pairing event! Come join us to meet featured authors from around the world, enjoy Colorado proud wines and delicacies all while supporting the “The Gathering Place” a colorado non-profit that supports women, children and the transgender community. This event is 18+, Halloween theme is 1920’s to 1940’s for the entire event and the after party. </div>
                             </div>
                         </div>
                     </article>
@@ -573,7 +558,8 @@
                     </div>
                     
                     <!--Contact Column-->
-                    <div class="contact-column col-md-6 col-sm-12 col-xs-12">
+                    <div class="contact-column col-md-6 col-sm-12 col-xs-12" id="scroll-section-six" >
+                        
                     	<h2 class="getInTouch">Get In Touch</h2>
                     	<div class="contact-form">
                             <form action="https://formspree.io/eclipsedbylove@lunareclipseseries.com" method="POST">
@@ -622,12 +608,13 @@
     
     
 </div>
+</div>
 <!--End pagewrapper-->
 
 <!--Scroll to top-->
 <div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa  fa-long-arrow-up"></span></div>
 
-
+<script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/1df80ecae86fa73bdbe9a8f80/934ceb7590d8271f8b3e54164.js");</script>
 <script src="js/jquery.js"></script> 
 <script src="js/bootstrap.min.js"></script>
 <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
